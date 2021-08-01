@@ -1,11 +1,11 @@
 
 body {
-    background-color:#F1ECC3;
+    background-color:#e3ffe4;
 }
 li {
     list-style:none;
     padding: 2px 3px 2px 3px;
-    color:#515E63;
+    color:#54436B;
 }
 .header {
     font-size:20px;
@@ -15,7 +15,7 @@ li {
     justify-content: center;
 }
 .contents {
-    background-color:#C9D8B6;
+    background-color:#71EFA3;
     height:100%;
     font-size:35px;
 }
