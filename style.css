@@ -5,8 +5,11 @@ body {
 }
 li {
     list-style:none;
-    padding: 2px 3px 5px 3px;
+    padding: 30px 70px ;
     color:#343F56;
+}
+ul {
+    display: flex;
 }
 .header {
     font-size:20px;
@@ -19,20 +22,13 @@ li {
 .contents {
     background-color:#FB9300;
     height:100%;
-    font-size:15px;
-
+    font-size:25px;
 }
 .text {
     padding:10px 80px;
 }
 .toc {
-    display: flex; 
-    justify-content: space-around;
-}
-span {
-    font-size: 25px;
-    color:rgb(249, 255, 255);
-    padding: 20px 20px;
+    display: flex;
 }
 h1 {
     font-size: 44px;
@@ -45,7 +41,7 @@ h2 {
     justify-content: center;
 }
 h3 {
-    font-size:23px;
+    font-size:30px;
     color:rgb(65, 65, 65);
     display:flex;
     justify-content: left;
