@@ -19,10 +19,15 @@ li {
 .contents {
     background-color:#FB9300;
     height:100%;
-    font-size:15px;343F56
+    font-size:15px;
+
 }
 .text {
     padding:10px 80px;
+}
+.toc {
+    display: flex; 
+    justify-content: space-around;
 }
 span {
     font-size: 25px;
