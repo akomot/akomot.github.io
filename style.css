@@ -16,6 +16,14 @@ ul {
 ol {
     padding: 2px 2px;
 }
+img {
+    padding: 10px 50px;
+}
+p {
+    display: flex;
+    width:auto;
+    padding: 1px 50px;
+}
 .header {
     font-size:20px;
 }
@@ -26,7 +34,7 @@ ol {
 
 }
 .contents {
-    background-color:#EBEBEB;
+    background-color:#b8b8b8;
     height:100%;
     font-size:25px;
     justify-content:center;
@@ -36,7 +44,7 @@ ol {
     padding:10px 80px;
 }
 .toc {
-    display:flow-root;
+    display:flex;
     background-color: #389393;
 }
 .item {
@@ -44,6 +52,16 @@ ol {
     padding: 2px 25px;
     font-size: 20px;
     display: flex;
+}
+.title1 {
+    font-size: 30px;
+    background-color:#389393;
+    padding: 5px;
+}
+.credits {
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+    padding: 5px 15px;
 }
 h1 {
     font-size: 44px;
@@ -60,4 +78,12 @@ h3 {
     color:rgb(46, 46, 46);
     display:flex;
     justify-content: left;
+    padding: 1px 20px;
+}
+h4 {
+    padding: 1px 25px;
+}
+footer {
+    background-color: #9b8675;
+    padding: 5px 15px;
 }
