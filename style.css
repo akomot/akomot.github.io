@@ -1,89 +1,98 @@
-
-body {
-    background-color:#EBEBEB;
-    color: rgb(71, 71, 71);
-}
-li {
-    list-style:none;
-    padding: 5px 70px ;
-    color:#353535;
+.top-title {
+    background-image: url("https://cdn.glitch.global/55174e67-fd62-4980-89c1-746dc4361d75/photo-1418065460487-3e41a6c84dc5.webp?v=1647086028112");
+    background-size: cover;
+    height: 350px;
+    padding: 100px 600px 100px 10px;
+    color: white;
+  }
+  
+  .top-class {
+    background-color: rgb(34,134,34,0.45);
+    padding: 50px 50px 50px 0;
+  }
+  
+  li {
+    list-style: none;
+    padding: 5px 70px;
     justify-content: center;
-}
-ul {
+  }
+  ul {
     display: flex;
     justify-content: center;
-}
-ol {
+  }
+  ol {
     padding: 2px 2px;
-}
-img {
+  }
+  img {
     padding: 10px 50px;
-}
-p {
+  }
+  p {
     display: flex;
-    width:auto;
+    width: auto;
     padding: 1px 50px;
-}
-.header {
-    font-size:20px;
-}
-.heading {
+    font-size: 30px;
+  }
+  .header {
+    font-size: 20px;
+  }
+  .heading {
     display: flex;
     justify-content: center;
-    background-color: #FA7F72;
-
-}
-.contents {
-    background-color:#b8b8b8;
-    height:100%;
-    font-size:25px;
-    justify-content:center;
+    background-color: rgb(0, 128,128);
+  }
+  .contents {
+    background-color: #fffafa;
+    height: 100%;
+    font-size: 25px;
+    justify-content: center;
     padding: 10px;
-}
-.text {
-    padding:10px 80px;
-}
-.toc {
-    display:flex;
-    background-color: #389393;
-}
-.item {
-    color:rgb(255, 255, 255);
+  }
+  .text {
+    padding: 10px 80px;
+  }
+  .toc {
+    display: flex;
+    background-color: #fffafa;
+  }
+  .item {
+    color: rgb(255, 255, 255);
     padding: 2px 25px;
     font-size: 20px;
     display: flex;
-}
-.title1 {
+  }
+  .title1 {
     font-size: 30px;
-    background-color:#389393;
+    background-color: #fffafa;
     padding: 5px;
-}
-.credits {
+  }
+  .credits {
     font-size: 20px;
     color: rgb(22, 22, 22);
     padding: 5px 15px;
-}
-h1 {
+  }
+  h1 {
     font-size: 44px;
-    color:rgb(0, 0, 0);
-}
-h2 {
+    color: white;
+    padding: 20px;
+  }
+  h2 {
     font-size: 33px;
     color: rgb(46, 46, 46);
     display: flex;
     justify-content: center;
-}
-h3 {
-    font-size:30px;
-    color:rgb(46, 46, 46);
-    display:flex;
+  }
+  h3 {
+    font-size: 30px;
+    color: rgb(46, 46, 46);
+    display: flex;
     justify-content: left;
     padding: 1px 20px;
-}
-h4 {
+  }
+  h4 {
     padding: 1px 25px;
-}
-footer {
+  }
+  footer {
     background-color: #9b8675;
     padding: 5px 15px;
-}
+  }
+  
